@@ -81,7 +81,7 @@ func (h *Handler) preview(ctx *context.Context, content template2.HTML, relative
 		}
 	}
 
-	btnHTML, _ := btns.Content(ctx)
+	btnHTML, _ := btns.Content()
 
 	table := comp.DataTable().
 		SetHideRowSelector(true).
@@ -302,7 +302,7 @@ func (h *Handler) tablePanel(ctx *context.Context, files models.Files, err error
 		}
 	}
 
-	btnHTML, btnsJs := btns.Content(ctx)
+	btnHTML, btnsJs := btns.Content()
 
 	thead := types.Thead{
 		{Head: language.Get("filename"), Field: "name"},
