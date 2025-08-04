@@ -1,4 +1,4 @@
-module github.com/GoAdminGroup/filemanager
+module github.com/rootshaxor/filemanager
 
 go 1.22.2
 
