@@ -52,7 +52,10 @@ func (h *Handler) Prefix(ctx *context.Context) string {
 }
 
 func (h *Handler) preview(ctx *context.Context, content template2.HTML, relativePath, path string, err error) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> eb474f4 (updatej)
 	comp := template.Default()
 
 	alert := template.HTML("")
