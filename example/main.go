@@ -11,8 +11,8 @@ import (
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/sqlite"
 	_ "github.com/GoAdminGroup/themes/sword"
 
-	"github.com/GoAdminGroup/filemanager"
-	"github.com/GoAdminGroup/filemanager/modules/root"
+	"github.com/rootshaxor/filemanager"
+	"github.com/rootshaxor/filemanager/modules/root"
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/modules/config"
 	"github.com/GoAdminGroup/go-admin/modules/language"
